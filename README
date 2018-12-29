@@ -1,0 +1,8 @@
+This project is just an experiment to use an Arduino to drive a (in my case an HP 5327B nixie tube) counter with pulses to be used as a clock. I used a little GPS board to get the time, and the 1PPS output from it to feed through the Arduino to the counter to advance the seconds. 
+
+I used an Webrobot 4x20 i2c LCD display for verification/testing, but you can use any display you like, or no separate display at all.
+
+You can see the YouTube video of this in action here: [https://youtube.com/]
+
+THERE ARE BUGS, (time sync is not maintained over a long period) so don't expect a production quality setup if you just copy my code. It's just for example and enjoyment. :-)
+
