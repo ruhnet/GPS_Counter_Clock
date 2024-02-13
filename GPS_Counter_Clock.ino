@@ -50,7 +50,7 @@ void setup() {
   //lcd.begin(20, 2);
   lcd.init();
   lcd.clear();
-  lcd.write(" ---[RuhNet GPS]---");
+  lcd.print(" ---[RuhNet GPS]---");
   lcd.setCursor(0, 1);
   //lcd.write("PROGRAM STARTING...");
   lcd.print("PROGRAM STARTING...");
